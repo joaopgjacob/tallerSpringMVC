@@ -47,6 +47,7 @@ public class HibernateApplication implements CommandLineRunner {
 		/***
 		 * Crear aquí las facturas y enlazarlas, por último, volver a mostrar dichas visitas
 		 */
+		
 		Bill b = new Bill();
 		b.setIdNumber(1234567890);
 		b.setMoney(1.0);
